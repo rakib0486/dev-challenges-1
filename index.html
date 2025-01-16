@@ -39,7 +39,6 @@
         width: 368px;
         padding: 16px;
         margin: 0 auto;
-        border: 1px solid black;
         border-radius: 8px;
         background-color: #fafaf9;
         box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);;
@@ -62,19 +61,24 @@
       .card-title{
         font-size: 18px;
         margin-bottom: 6px;
+        color: #394150;
       }
       .card-subtitle{
         font-size: 14px;
         color: #394150;
         font-weight: 300;
+        line-height: 20px;
         margin-bottom: 20px;
       }
       .card-author{
-        margin-bottom: 20px;
+        border-top: 1px solid #E5EAF0;
+      }
+      .card-author a{
+        display: block;
+        padding-top: 20px;
         font-size: 12px;
         text-decoration: none;
         color: #394150;
-        
       }
       .author-info {
         font-size: 14px;
@@ -82,7 +86,9 @@
         margin-top: 16px;
         color: rgb(55, 65, 81);
       }
-
+      .author-info{
+        margin-top: 70px;
+      }
       .author-info a {
         text-decoration: none;
       }
@@ -98,10 +104,11 @@
           From minimalist sculptures to minimalist <br> paintings, this blog will
           inspire you to <br> appreciate the beauty that lies in simplicity.
         </p>
-        <a class="card-author" href="#">Annie Spratt</a>
+        <div class="card-author">
+          <a href="#">Annie Spratt</a>
+        </div>
       </div>
     </div>
-
     <div class="author-info">
       Coded by <a href="github.com/rakib0486" target="_blank">Rakib Hossen</a> |
       Challenge by
